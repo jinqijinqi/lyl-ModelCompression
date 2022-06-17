@@ -1,0 +1,1 @@
+python main_bayesian.py -m train --config ./examples/object_detection/configs/ssd300_vgg_voc_bayesian.json --data ./data/voc/VOCdevkit/ --log-dir=./results/quantization/ssd300_bayesian --multiprocessing-distributed
